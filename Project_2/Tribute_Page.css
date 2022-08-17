@@ -1,82 +1,142 @@
 body{
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1, h2 {
     font-family: 'Dancing Script', sans-serif;
 }
-#img-div-full {
+
+header{
     width: 100%;
-    height: 250px;;
+    height: max(7vw, 55px);
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+}
+#title-header {
     display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: right;
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+    margin: .8% 0 0 0;
+    font-size: max(2vw, 16px);
+    color: rgba(18, 25, 43);
+}
+#title-header > span{
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#img-top-div {
+    width: 100%;
+    height: max(20vw, 230px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position : 0 50%;
+    padding-top: max(7vw, 55px);
+    background-image: url(https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+}
+#img-top-cover {
+    width: 100%;
+    height: max(20vw, 230px);
     margin: 0 auto;
-    padding-top: 50px;
-    background-color: rgb(88, 46, 21);
+    background-color: rgba(18, 25, 43, 0.582);
 }
 
 #title {
+    position: absolute;
     width: 40%;
-    height: 150px;
-    margin: 5% 5% 2% 0;
+    margin: 8% 5% 0 52%;
     text-align: center;
     color: white;
-    font-size: 50px;
-    font-weight: 100;
+    font-size: max(4vw, 38px);
+    font-weight: 200;
 }
-
+h1 > span {
+    text-transform: uppercase;
+    font-size: max(3vw, 30px);
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 #img-div{
     width: 100%;
     margin: -20px 0 20px 0;
 }
 #image{
     float: left;
-    height: 600px;
-    max-width: 40%;
-    max-height: none;
+    height: max(20vw, 500px);
+    width: max(10vw, 40%);
     object-fit: cover;
-    margin-top: -250px;
+    margin-top: -200px;
     margin-left: 10%;
     padding: 0 5% 5% 0;
     align-self: center;
 }
+
+/*...................Section 1...................*/
 #title-name {
-    margin-top: 80px;
+    margin-top: 70px;
     margin-bottom: 0;
-    font-size: 45px;
-    color: rgb(88, 46, 21);
+    font-size: max(3vw, 1em, 2rem);
+    color: rgba(18, 25, 43);
 }
-#subtitle-name {
+#subtitle-name, #contibutions > h3{
     margin-top: 0;
-    color: rgb(145, 84, 49);
+    text-transform: uppercase;
+    color: rgb(139, 133, 122);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: medium;
+    font-size: max(1.5vw, 16px);
 }
 #title-name, #subtitle-name {
     margin-right: 10%;
 }
 .img-caption {
-    margin:  20px 10% 5% 10%;
+    margin:  2% 10% 5% 10%;
     text-align: justify;
 }
+
+/*...................Section 2...................*/
 .tribute-info {
     text-align: justify;
 }
 
-.tribute-info, #img-div {
-    font-size: large;
+.tribute-info, #img-div, #contibutions >p{
+    font-size: max(1.4vw, 16px, 10px);
     
 }
-
+#tribute {
+    width: 100%;
+    height: max(6vw, 430px);
+    color: white;
+    margin-bottom: 8%;
+    margin-top: 8%;
+    background-color: rgba(18, 25, 43, 0.925);
+}
+#tribute-img{
+    background-size: cover;
+    background-position : 0 100%;
+    background-image: url(https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+}
+#title-tribute-info {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0;
+    padding-top: 3%;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: max(3.5vw, 2em, 2.2rem);
+    font-weight: 100;
+    
+}
 #div-tribute-info {
     width: 100%;
-    height: 600px;
+    height: max(2vw, 350px);
     display: flex;
     flex-direction: row;
     gap: 5%;
-    background-color: rgb(184, 173, 127);
+    color: white;
+    overflow-y: scroll;
+    padding-bottom: 3%;
 }
 #left-side {
     width: 50%;
@@ -90,6 +150,20 @@ h1, h2 {
     flex-direction: column;
     margin-right: 10%;
 }
+
+/*...................Section 3...................*/
+#contibutions {
+    margin: 0 15% 0 15%;
+}
+#contibutions > h3 {
+    text-align: center;
+}
+#contibutions > p {
+    text-align: justify;
+}
+
+
+
 #tribute-link {
     margin-top: 4px;
     font-family: 'Dancing Script', sans-serif;
