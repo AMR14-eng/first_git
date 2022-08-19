@@ -217,17 +217,23 @@ h1 > span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: white;
     text-align: center;
     border-radius: 5px;
 }
 .button {
     padding: 4% 0 4% 0;
     background-color: rgb(255, 255, 255);
+    color: rgb(182, 168, 43);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
     border-radius: 5px;
     font-size: max(1.5vw, 15px);
     text-align: center;
     text-decoration: none;
+}
+.button:hover {
+    background-color: rgba(182, 168, 43, 0.877);
+    color: white;
 }
 
 /*...................Footer...................*/
