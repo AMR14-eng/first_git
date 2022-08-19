@@ -177,7 +177,7 @@ h1 > span {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 5%;
     margin: 0 auto 0 auto;
 }
 .block-img {
@@ -230,6 +230,7 @@ h1 > span {
     text-decoration: none;
 }
 
+/*...................Footer...................*/
 footer {
     height: max(7vw, 70px);
     color: white;
