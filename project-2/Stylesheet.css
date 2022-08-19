@@ -177,7 +177,6 @@ h1 > span {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 5%;
     margin: 0 auto 0 auto;
 }
 .block-img {
@@ -185,6 +184,11 @@ h1 > span {
     background-position: 10% 50%;
     background-size: cover;
     background-image: url(https://m.media-amazon.com/images/I/71H30LWoo-L._AC_SL1332_.jpg);
+}
+#div-blocks {
+    width: 5%;
+    height: max(20vw, 340px);
+    background-color: rgb(255, 255, 255);
 }
 .blocks-cover {
     height: max(20vw, 340px);
