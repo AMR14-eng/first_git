@@ -1,0 +1,263 @@
+body {
+    background-color: black;
+}
+
+hr {
+    color: white;
+}
+
+h1, h2, h3, h4 {
+    color: white;
+    font-family: serif;
+}
+p {
+    color: white;
+}
+
+/* area principal de imagenes */
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 550px;
+}
+
+#img_central {
+    object-fit: cover;
+    width: 100%;
+    height: 550px;
+    opacity: 0.30;
+}
+
+.centrado {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#texto_img {
+    font-size: 20px;
+    text-align: center;
+}
+
+/*boton normal*/
+#boton_inicio {
+    color: white;
+    background-color: transparent;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border-color: white;
+}
+
+/*boton hover*/
+#boton_inicio:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border-color: white;
+}
+
+/* primer parrafo */
+#quote {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-right: 350px;
+    padding-left: 350px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* articulo 2 tabla de imagenes*/
+table {
+    padding-left: 55px;
+    padding-right: 50px;
+}
+#titulo_t {
+    font-family: serif;
+    padding-left: 70px;
+}
+td {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-right: 5px;
+}
+
+.img_t {
+    object-fit: cover;
+    width: 260px;
+    height: 200px;    
+}
+/*boton de imagen de articulo 2*/
+.img_t_button {
+    background-color: black;
+    
+}
+.img_t_button :hover{
+    cursor: pointer;
+    opacity: 30%;
+    
+}
+
+/*articulo 3: imagen con informacion al lado*/
+#img_articulo_3 {
+    height: 350px;
+    width: 580px;
+    padding-top: 250px;
+    padding-left: 70px;
+}
+#articulo_3 {
+    column-count: 2;
+    column-gap: 10%;
+}
+#articulo_3_texto {
+    text-align: left;
+    padding-top: 350px;
+    padding-left: 5px;
+    padding-right: 250px;
+    color: white;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*collage articulo 4*/
+#collage {
+    padding-left: 200px;
+    padding-right: 170px;
+    padding-top: 350px;
+    padding-bottom: 300px;
+}
+#collage_1 {
+    padding-right: 8px;
+    height: 200px;
+    width: 265px;
+    position: relative;
+}
+#collage_2_3 {
+    padding-right: 8px;
+    height: 200px;
+    width: auto;
+    position: relative;
+}
+#collage_4 {
+    height: 415px;
+    width: auto;
+    position: relative;
+    padding-bottom: 10px;
+}
+#collage_5 {
+    height: 415px;
+    width: auto;
+    position: absolute;
+    padding-left: 11px;
+    padding-right: 200px;
+}
+#collage_6 {
+    height: 308px;
+    padding-left: 334px;
+    width: 232px;
+    position: absolute;
+}
+#collage_7 {
+    height: 309px;
+    padding-left: 334px;
+		padding-top: 320px;
+    width: auto;
+    position: absolute;
+}
+
+/* footer area de formulario */
+#formulario {
+    columns: 40px 3;
+}
+input, textarea {
+    background-color: white;
+}
+
+label {
+    color: white;
+}
+
+footer {
+    background-color: rgb(62, 62, 62);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*footer area*/
+.foot {
+    color: white;
+    column-gap: 20%;
+    column-count: 3;
+    display: flex;
+    font-size: small;
+}
+.url_footer{
+    color: white;
+}
+a:hover {
+    text-decoration: solid;
+}
+.secciones {
+    position: relative;
+    top: 100%; 
+    right: 40px;
+    font-size: 15px;
+}
+
+.otros_enlaces {
+    position: relative;
+    top: 100%; 
+    right: 90px;
+    font-size: 15px;
+}
+
+.data_foot {
+    position: relative;
+    top: 100%; 
+    left: 1%;
+}
+
+#h4_foot {
+    font-size: 20px;
+}
+.inf_comp {
+    font-size: 15;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.copyr {
+    font-size: 15px;
+    position: relative;
+    top: 100%; 
+    left: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*boton de envio*/
+#boton_envio {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-radius: 5px;
+}
+#boton_envio :hover{
+    cursor: pointer;
+}
